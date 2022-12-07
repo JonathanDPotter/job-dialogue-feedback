@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Let's Begin",
+    "description": "Team Member",
+    "mutation": "teamMember"
+  },
+  {
+    "id": 2,
+    "title": "Job Performance",
+    "description": "1. Does this TM consistently perform the basic job duties as they have been trained to do?\n2. Does this TM meet or exceed departmental expectations for productivity on the job?\n3. Does this TM consistently complete their scheduled shift's job duty responsibilities?\n4. Has this TM learned to identify the core assortment of products offered for sale in the department?\n5. Does this TM know how to use the basic equipment necessary in the operation of their job duties?\n6. Store/Facility, Product, and Company Knowledge: (Core Value: Educating Customers) Knows location &/or use of store/facility products and how departments function. Can help customers throughout store. Understands Core Values, Good Organics, and GIG book.",
+    "mutation": "jobPerformance"
+  },
+  {
+    "id": 3,
+    "title": "Communication",
+    "description": "(Core Value: Open and Timely Information) How well is leadership kept informed of situations that affect the store/facility? Are pertinent personal issues or schedule issues, such as swapping shifts, communicated to leadership? Is feedback given at meetings? Are appreciations publicly expressed?",
+    "mutation": "communication"
+  },
+  {
+    "id": 4,
+    "title": "Customer Service",
+    "description": "(Core Value: Shared Fate & Exceptional Customer Service) Enthusiasm for the job. Belief and practice of Core Values. Does TM deal professionally with TMs, leadership, and customers? Does TM give professional impression?\nDoes this TM consistently smile, make eye contact, & promptly offer a pleasant greeting to all customers entering the department?\nDoes this TM consistently offer helpful and knowledgeable service to all customers shopping in their department?",
+    "mutation": "customerService"
+  },
+  {
+    "id": 5,
+
+    "title": "Teamwork & Cooperation",
+    "description": "(Core Value: Self Directed Team) Willingness to pitch in to meet department goals. Can be flexible in their schedule. Accepting of change. Willingness to volunteer. Do they finish tasks and follow-up on responsibilities?\n1. Does this TM consistently work well with other members of the team?\n2. Is this TM cooperative, approachable, and open to new ideas?\n3. Is this TM willing to perform any of the necessary tasks involved in the operation of the department",
+    "mutation": "teamworkCooperation"
+  },
+  { "id": 6, "title": "Big Wins!", "description": "", "mutation": "bigWins" }
+]

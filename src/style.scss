@@ -1,0 +1,60 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100vh;
+  background-color: $dark;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.active {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 3px;
+}
+
+p {
+  white-space: pre-line;
+}
+
+.slide-fade-enter-active {
+  transition: all 0.8s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+@for $i from 1 to 20 {
+  .vh-#{$i * 5} {
+    height: #{$i * 5}vh;
+  }
+
+  .vw-#{$i * 5} {
+    width: #{$i * 5}vw;
+  }
+
+  .h-#{$i * 5} {
+    height: #{$i * 5%};
+  }
+
+  .w-#{$i * 5} {
+    width: #{$i * 5%};
+  }
+}
