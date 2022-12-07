@@ -173,6 +173,7 @@ const makeDoc = async (
     saveAs(blob, `job_dialogue_${name}.docx`);
 
     swal("Success", "", "success");
+    // eslint-disable-next-line
   } catch (error: any) {
     swal("Ooops!", error.message, "error");
   }
